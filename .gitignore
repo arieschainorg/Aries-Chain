@@ -1,0 +1,24 @@
+# Build artifacts
+/build/
+*.out
+filtered_coverage.txt
+coverage.txt
+
+# Local devnet / node home directories
+.testnets/
+.aries*/
+*.ariesd/
+
+# Go
+vendor/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Env files (never commit real secrets)
+.env
+.env.local
+!tests/**/.env
